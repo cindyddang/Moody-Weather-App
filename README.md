@@ -6,7 +6,7 @@ A React application that displays the current weather using the **OpenWeatherMap
 - Dynamic Spotify playlists embedded based on weather category
 
 ![Starting Screenshot](./src/assets/screenshots/Starting.png)
-![Searching Screenshot](./src/assets/screenshots/Searching_location.png.png)
+![Searching Screenshot](./src/assets/screenshots/Searching_location.png)
 
 
 ## 🔑 Setup & Installation
