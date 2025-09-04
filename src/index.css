@@ -1,13 +1,103 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Lexend');
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+}
+
+body {
+  font-family: 'Lexend', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p{
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.app{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.search{
+  text-align: center;
+  padding: 1rem;
+}
+
+.app input{
+  font-size: 1.2rem;
+  padding: .7rem 1.5rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+input::placeholder{
+  color: #fff;
+}
+
+.app::before{
+  content: '';
+  background:url('https://i.pinimg.com/originals/08/e5/97/08e597e1addb5f2aab9ae3ac4820b285.gif') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.music {
+  height: 300px;
+  max-width: 700px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  border-radius: 1.3rem;
+  justify-content: space-evenly;
+}
+
+.container {
+  max-width: 700px;
+  height: 700px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.spotify-embed {
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
 }
