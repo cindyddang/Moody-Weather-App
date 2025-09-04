@@ -5,8 +5,8 @@ A React application that displays the current weather using the **OpenWeatherMap
 - Search weather by city (using OpenWeatherMap API)
 - Dynamic Spotify playlists embedded based on weather category
 
-![Starting Screenshot](./assets/screenshots/Starting.png)
-![Searching Screenshot](./assets/screenshots/Searching_location.png.png)
+![Starting Screenshot](./src/assets/screenshots/Starting.png)
+![Searching Screenshot](./src/assets/screenshots/Searching_location.png.png)
 
 
 ## 🔑 Setup & Installation
