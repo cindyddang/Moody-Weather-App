@@ -12,7 +12,7 @@ A React application that displays the current weather using the **OpenWeatherMap
 ## 🔑 Setup & Installation
 1. Clone the repository
 
-2. Create your [OpenWeatherm](https://openweathermap.org/) and get your API key from [Current Weather Data](https://openweathermap.org/current)
+2. Create your [OpenWeathermap](https://openweathermap.org/) and get your API key from [Current Weather Data](https://openweathermap.org/current)
 
 3. Add your API key in src/App.js
 
